@@ -44,8 +44,7 @@ object SimpleScalaRiakSQLDemo {
     val sparkConf = new SparkConf().setAppName("Simple Scala Riak Demo")
 
     setSparkOpt(sparkConf, "spark.master", "local")
-    setSparkOpt(sparkConf, "spark.riak.connection.host", "192.168.161.107:51087,192.168.161.107:52087,192.168.161.107:53087")
-    //setSparkOpt(sparkConf, "spark.riak.connection.host", "127.0.0.1:10017")
+    setSparkOpt(sparkConf, "spark.riak.connection.host", "127.0.0.1:10017")
 
     createTestData(sparkConf)
     val sc = new SparkContext(sparkConf)
