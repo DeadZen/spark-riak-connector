@@ -11,13 +11,13 @@ Spark Riak Connector allows you to expose the data stored in Riak buckets as Spa
 
 ### Features
 * Exposes data in Riak bucket as Spark RDD
-* Provides ability to construct an RDD form a given set of keys
+* Provides ability to construct an RDD from a given set of keys
 * Provides ability to construct an RDD by using a 2i string index or a set of indexes
 * Provides ability to construct an RDD by using a 2i range query or a set of ranges
 * Provides ability to construct an RDD using a full bucket read 
 * Allows saving of an RDD into a specified Riak bucket and indexing results with 2i indexes
 * Provides mapping and data conversion for JSON formatted values
-* Allows parallel ful bucket reads into multiple partitions
+* Allows parallel full bucket reads into multiple partitions
 
 
 ### Building
